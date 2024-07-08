@@ -8,6 +8,8 @@ import TopProducts from './components/TopProducts/TopProducts';
 import Banner from './components/banner/Banner'
 import Subscribe from './components/Subscribe/Subscribe';
 import Testimonials from './components/testimonials/Testimonials';
+import Footer from "./components/footer/Footer";
+
 
 const App = () => {
 
@@ -21,7 +23,7 @@ const App = () => {
     Aos.refresh();
   }, []);
   return (
-    <div>
+    <div className='bg-white duration-200'>
       
      <Navbar />
      <Hero />
@@ -30,7 +32,9 @@ const App = () => {
      <Banner  />
      <Subscribe/>
      <Testimonials/>
+     <Footer/>
      
+         
       </div>
   );
 };

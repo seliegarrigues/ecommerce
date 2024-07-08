@@ -1,7 +1,7 @@
 //components/Navbar/Navbar.jsx
 import React from "react";
 import { LuMenu } from "react-icons/lu";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/website/Logo.png";
 import { LuSearch } from "react-icons/lu";
 import { FaCartShopping } from "react-icons/fa6";
 import { LuUserCircle2 } from "react-icons/lu";
